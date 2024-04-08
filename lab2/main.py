@@ -1,8 +1,35 @@
 
-from tridiagonal import tridiagonalMatrixAlgorithm;
 import math
 import numpy as np
+from tabulate import tabulate
 
+def write_array_to_file(out, filename):
+    formatted_out = map(lambda x: list(map(str, x)), out)
+
+    # Форматируем таблицу с помощью tabulate
+    table = tabulate(formatted_out, tablefmt="grid")
+
+    # Открываем файл для записи
+    with open(filename, "w") as file:
+        # Записываем таблицу в файл
+        file.write(table)
+
+def calculate_table(count, a: int, h: int, x):
+    out= []
+    aa = [[]]
+    b, c, d = cubic_spline_interpolation(xs, ys,count)
+
+    x = a
+    for i in range(count):
+        new_y = evaluate_cubic_spline(xs,ys,b,c,d,x,count)
+        f =  2*x*math.cos(x / 2)
+        g = new_y
+        out[i] = [x,f,g,abs(f-g)]
+        print(i)
+        x += h
+        aa.append(out)
+        print(aa)
+   # write_array_to_file(aa,'table.txt')
 def cubic_spline_interpolation(x, y,n):
     h = np.diff(x)
     delta_y = np.diff(y)
@@ -76,11 +103,11 @@ if __name__ == "__main__":
         x_pos+=h
     # Вычисляем коэффициенты сплайнов
     b, c, d = cubic_spline_interpolation(xs, ys,dot_count)
-    new_x_pos = 0.5
+   # new_x_pos = 28
 
-    new_y = evaluate_cubic_spline(xs,ys,b,c,d,new_x_pos,dot_count)
-    print(new_y)
-
+    #new_y = evaluate_cubic_spline(xs,ys,b,c,d,new_x_pos,dot_count)
+   # print(new_y)
+    calculate_table(dot_count,a,h,xs)
 
 
 

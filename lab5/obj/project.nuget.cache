@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CrjEn0xcK2X7G61Fs1lGYp0y/3wK/iyTHd83ps1eV3ZlRSOSHZrh4C7iW1GXZOX6X/63+YSuD+gbVo3z4RzpVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\bmstu_labs\\numerical-methods\\lab5\\lab5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
