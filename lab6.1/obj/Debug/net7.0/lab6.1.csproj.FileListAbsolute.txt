@@ -1,0 +1,15 @@
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.AssemblyInfo.cs
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\bin\Debug\net7.0\lab6.1.exe
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\bin\Debug\net7.0\lab6.1.deps.json
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\bin\Debug\net7.0\lab6.1.runtimeconfig.json
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\bin\Debug\net7.0\lab6.1.dll
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\bin\Debug\net7.0\lab6.1.pdb
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.dll
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\refint\lab6.1.dll
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.pdb
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\lab6.1.genruntimeconfig.cache
+C:\Users\Alex\Desktop\bmstu_labs\numerical-methods\lab6.1\obj\Debug\net7.0\ref\lab6.1.dll
