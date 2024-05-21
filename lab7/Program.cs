@@ -79,7 +79,7 @@ public class Program
         foreach ((double xj, _) in points)
         {
             var abs = Math.Abs(fft.CalсAt(xj).Real - Func(xj + 0.5 / N));
-            Console.WriteLine($"{xj + 0.5 / N} | {fft.CalсAt(xj).Real:F15} | {Func(xj + 0.5 / N):F15} | {abs}:F15");
+            Console.WriteLine($"{xj + 0.5 / N} | {fft.CalсAt(xj).Real:F15} | {Func(xj + 0.5 / N):F15} | {abs:F15}");
         }
 
 
