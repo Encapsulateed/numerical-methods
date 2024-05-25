@@ -6,7 +6,7 @@ class Program
     {
         double eps = 0.001;
         Tuple<double, double> analyticalMin = AnalyticalMin();
-        Console.WriteLine("Analytical minimum: ({0}, {1})", analyticalMin.Item1, analyticalMin.Item2);
+        Console.WriteLine("Аналитический минимум: ({0}, {1})", analyticalMin.Item1, analyticalMin.Item2);
 
         int k = 0;
         double xk = 0.0, yk = 0.0;
@@ -24,8 +24,8 @@ class Program
             k++;
         }
 
-        Console.WriteLine($"Methods minimum: ({xk}, {yk})");
-        Console.WriteLine($"Diff ({Math.Abs(analyticalMin.Item1 - xk)}, {Math.Abs(analyticalMin.Item2 - yk)})");
+        Console.WriteLine($"Метод наискорейшего спуска: ({xk}, {yk})");
+        Console.WriteLine($"Абсолютная разница ({Math.Abs(analyticalMin.Item1 - xk)}, {Math.Abs(analyticalMin.Item2 - yk)})");
     }
 
     static double Function(double x, double y)

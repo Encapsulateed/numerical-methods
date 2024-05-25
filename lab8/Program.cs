@@ -4,19 +4,23 @@ class Program
 {
     static double F(double x)
     {
-        return Math.Exp(x);
+        return 2*Math.Sin(x);
     }
 
     static double Analytical(double x)
     {
-        return Math.Exp(x);
+        return Math.Exp(x) * (0.2 * Math.Exp(x) - 0.8) + 0.2 * Math.Sin(x) + 0.6 * Math.Cos(x);
     }
 
-    static int n = 10;
-    static double p = 1.0;
-    static double q = -1.0;
-    static double a = Analytical(0); // 1.0
-    static double b = Analytical(1); // Math.E
+    static int n = 100;
+
+    static double p = -3;
+    static double q = 2;
+
+    static double a = Analytical(0); 
+    static double b = Analytical(1); 
+
+
     static double[][] ys = new double[2][];
 
     static double GetC1()
@@ -35,14 +39,17 @@ class Program
         Console.WriteLine($"y'' + {p}y' + {q}y = exp(x)");
         Console.WriteLine($"y(0) = {a}\ny(1) = {b}");
         Console.WriteLine($"Количество разбиений: {n}");
+
         double h = 1.0 / n;
         Console.WriteLine(h);
-        double delta = h * 100;
+        double delta = h * 1000;
         double[] xs = new double[n + 1];
+
         for (int i = 0; i <= n; i++)
         {
             xs[i] = i * h;
         }
+
         ys[0] = new double[n + 1];
         ys[1] = new double[n + 1];
         ys[0][0] = a;
@@ -64,7 +71,7 @@ class Program
         Console.WriteLine(y.Length);
         for (int i = 0; i < y.Length; i++)
         {
-            Console.WriteLine($"x={xs[i]:F1}, y={Analytical(xs[i]):F6}, y*={y[i]:F6}  |y-y*|={Math.Abs(y[i] - Analytical(xs[i])):F6}");
+            Console.WriteLine($"f({xs[i]:F1}) = {Analytical(xs[i]):F10} | f*({xs[i]:F1}) = {y[i]:F10} | |f-f*|={Math.Abs(y[i] - Analytical(xs[i])):F10}");
         }
     }
 }

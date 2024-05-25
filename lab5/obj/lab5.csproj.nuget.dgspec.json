@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Desktop\\bmstu_labs\\numerical-methods\\lab5\\lab5.csproj": {}
+    "C:\\Users\\Alex\\Desktop\\BMSTU\\numerical-methods\\lab5\\lab5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Desktop\\bmstu_labs\\numerical-methods\\lab5\\lab5.csproj": {
+    "C:\\Users\\Alex\\Desktop\\BMSTU\\numerical-methods\\lab5\\lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\bmstu_labs\\numerical-methods\\lab5\\lab5.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\BMSTU\\numerical-methods\\lab5\\lab5.csproj",
         "projectName": "lab5",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\bmstu_labs\\numerical-methods\\lab5\\lab5.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\BMSTU\\numerical-methods\\lab5\\lab5.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\bmstu_labs\\numerical-methods\\lab5\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\BMSTU\\numerical-methods\\lab5\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -61,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
